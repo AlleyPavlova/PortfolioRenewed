@@ -94,10 +94,11 @@ margin-left: 50%;
     border-radius:50%;
     padding:13px;
     text-align:center;
-    position:absolute;
     top:50%;
     left:60%;
-    transform:translateY(-50%)
+    transform:translateY(-50%);
+    margin-right: -80%;
+    
     
 }
 .main-timeline .timeline-icon i {
@@ -111,8 +112,13 @@ margin-left: 50%;
      position:relative
 }
 
+#styleGuide {
+    display: flex;
+    margin-right: -400px;
+}
+
 .main-timeline .timeline-content { 
-    width:50%;padding:0 50px;margin:52px 0 0;float:right;position:relative 
+    width:50%;padding:0 50px;margin:52px 0 0;float:right;position:relative;
 }
 .main-timeline .timeline-content:before { 
     content:"";
